@@ -5,8 +5,9 @@ import { Component } from '@angular/core';
   template: `
     <app-navbar></app-navbar>
     <app-home></app-home>
-    <app-whenandwhere></app-whenandwhere>
     <app-ourstory></app-ourstory>
+    <app-gallery></app-gallery>
+    <app-whenandwhere></app-whenandwhere>
     <app-registry></app-registry>
     <app-footer></app-footer>
     <!-- <router-outlet></router-outlet> -->

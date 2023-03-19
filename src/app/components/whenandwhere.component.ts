@@ -3,9 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-whenandwhere',
   template: `
-  <div class="mt-3">
+  <div id="whenandwhere" class="mt-3">
     <div class="display-5 text-center" data-bs-toggle="collapse" data-bs-target="#collapse-whenandwhere">
-      <span class="font-dancing">When and Where</span>
+      <span class="font-dancing">When and Where</span><i class="bi bi-caret-down-fill"></i>
     </div>
 
     <div class="collapse show" id="collapse-whenandwhere">
@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
           <div class="font-gurajada">
             <div>Saturday May the 13th, 2023</div>
             <div>At 5 o' clock in the evening</div>
-            <div>The venue is The Farm at Fiery Gizzard</div>
+            <div class="mt-2">The venue is The Farm at Fiery Gizzard</div>
             <div>Located at <a href="http://maps.google.com/?q=687 Dutchtown Rd, Tracy City, TN 37387">687 Dutchtown Rd, Tracy City, TN 37387, USA</a></div>
           </div>
         </div>

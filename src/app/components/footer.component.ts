@@ -41,7 +41,7 @@ import { Component } from '@angular/core';
           <h5>Other Links</h5>
           <ul class="list-unstyled">
             <li class="mb-2"><a href="https://www.amazon.com/wedding/share/samuelyveronica" target="_blank">Wedding Registry</a></li>
-            <li class="mb-2"><a href="https://www.amazon.com/wedding/share/samuelyveronica" target="_blank">List de Regaloz</a></li>
+            <li class="mb-2"><a href="https://www.amazon.com/wedding/share/samuelyveronica" target="_blank">Lista de Regalos</a></li>
           </ul>
         </div>
       </div>

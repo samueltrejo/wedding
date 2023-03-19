@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-home',
   template: `
-  <div class="app-home container-fluid text-center pt-3">
+  <div id="home" class="app-home container-fluid text-center">
     <img class="wedding-hero w-100" src="../../assets/wedding_hero.svg" />
   </div>
   `,

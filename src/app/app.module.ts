@@ -9,6 +9,7 @@ import { RegistryComponent } from './components/registry.component';
 import { OurstoryComponent } from './components/ourstory.component';
 import { FooterComponent } from './components/footer.component';
 import { WhenandwhereComponent } from './components/whenandwhere.component';
+import { GalleryComponent } from './components/gallery.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WhenandwhereComponent } from './components/whenandwhere.component';
     RegistryComponent,
     OurstoryComponent,
     FooterComponent,
-    WhenandwhereComponent
+    WhenandwhereComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

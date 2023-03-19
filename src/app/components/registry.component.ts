@@ -3,9 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-registry',
   template: `
-  <div class="mt-3">
+  <div id="registry" class="mt-3">
     <div class="display-5 text-center" data-bs-toggle="collapse" data-bs-target="#collapse-registry">
-      <span class="font-dancing">Registry</span>
+      <span class="font-dancing">Registry</span><i class="bi bi-caret-down-fill"></i>
     </div>
 
     <div class="collapse show" id="collapse-registry">
